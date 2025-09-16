@@ -45,3 +45,13 @@ myproject/
   ├── pyproject.toml (推荐)
   └── main.py
 ```
+
+
+常用第三方库：
+- 数据处理：numpy, pandas
+- 网络请求：requests, httpx
+- Web 开发：flask, fastapi, django
+- 数据库：sqlalchemy, peewee, pymongo
+- 爬虫：scrapy, beautifulsoup4
+- 可视化：matplotlib, seaborn, plotly
+- 工具：click (命令行), typer, rich (美化输出)
