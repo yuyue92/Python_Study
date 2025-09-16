@@ -32,3 +32,16 @@
 - 特殊方法（__str__, __repr__, __len__, __iter__ 等）
 - 数据类 @dataclass
 - 👉 练习：写一个 Vector 类，支持 +、-、len()。
+
+包管理与项目结构
+```
+myproject/
+  ├── mypackage/
+  │     ├── __init__.py
+  │     ├── module1.py
+  │     └── module2.py
+  ├── tests/
+  ├── requirements.txt
+  ├── pyproject.toml (推荐)
+  └── main.py
+```
