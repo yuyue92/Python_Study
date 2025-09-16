@@ -55,3 +55,13 @@ myproject/
 - 爬虫：scrapy, beautifulsoup4
 - 可视化：matplotlib, seaborn, plotly
 - 工具：click (命令行), typer, rich (美化输出)
+
+
+
+学习进阶路线
+- 脚本小工具：命令行工具、文件处理
+- Web 开发：Flask/FastAPI 做 REST API
+- 数据分析：用 Pandas 处理 CSV/Excel
+- 并发 & 网络：写爬虫、并发任务
+- 大型工程：模块化、测试、CI/CD
+- AI & 数据科学：机器学习、深度学习
