@@ -56,7 +56,25 @@ myproject/
 - 可视化：matplotlib, seaborn, plotly
 - 工具：click (命令行), typer, rich (美化输出)
 
+高级主题
+- 并发编程
+- asyncio, await, async/await 模型
+- 事件循环 / 协程 / Task
+- 对比：线程 vs 进程 vs 协程
 
+- 网络编程
+- socket 基础
+- TCP/UDP
+- WebSocket (websockets)
+
+- 数据科学与 AI
+- numpy, pandas, scikit-learn, pytorch, tensorflow
+- 用 Jupyter Notebook 做实验
+
+- 性能优化
+- cProfile 性能分析
+- functools.lru_cache 缓存
+- cython / numba 加速
 
 学习进阶路线
 - 脚本小工具：命令行工具、文件处理
