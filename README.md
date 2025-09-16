@@ -1,7 +1,13 @@
-PyQt
+🐍 Python 开发详细指南（由浅入深）
+1. 环境与基础
 
-语言/技术栈：Python + Qt（C++ 框架的 Python 绑定）
-核心特点：
-- 基于 Qt 的 GUI 框架，提供 Python API。
-- 开发效率高，适合数据可视化工具、内部办公工具等。
-- 生成的程序是原生桌面应用（不是 Web 技术）。
+安装：推荐 Python 官网
+ 或 pyenv/conda 管理多版本。
+
+包管理：用 pip / pipx / conda。
+
+虚拟环境：python -m venv venv && source venv/bin/activate。
+
+编辑器：VSCode + Pylance 插件 / PyCharm。
+
+👉 练习：写一个脚本，读取 .txt 文件，统计单词出现频率。
