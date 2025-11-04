@@ -361,7 +361,6 @@ def get_email_config():
         'email': 'yy18825237023@126.com',
         'password': getpass.getpass("请输入邮箱密码: ")
     }
-    # EDuaH3BumbLK7HEi
     return email_config
 
 def main():
@@ -387,3 +386,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
