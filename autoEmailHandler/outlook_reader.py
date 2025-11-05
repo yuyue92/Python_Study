@@ -24,3 +24,21 @@ for mail in filtered:
         print("时间:", mail.ReceivedTime)
         # 预览正文（Body/HTMLBody），注意可能很长
         print("正文预览:", (mail.Body or "").strip()[:120])
+
+
+import csv
+
+rows = [["subject", "from", "received", "preview"]]
+for mail in filtered:
+    if mail.Class != 43:
+        continue
+    rows.append([
+        mail.Subject,
+        getattr(mail, "SenderEmailAddress", ""),
+        mail.ReceivedTime.strftime("%Y-%m-%d %H:%M:%S"),
+        (mail.Body or "").strip()[:120].replace("\n"," ").replace("\r"," ")
+    ])
+
+with open("outlook_inbox_unread.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerows(rows)
+print("已写出 outlook_inbox_unread.csv")
